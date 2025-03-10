@@ -45,7 +45,7 @@ export default function ArticleDetailScreen(props) {
           >
             <Text>Back</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => navigation.goBack()}
+          <TouchableOpacity onPress={handleToggleFavorite}
           style={[styles.favoriteButton, 
             {
               backgroundColor: "white",
